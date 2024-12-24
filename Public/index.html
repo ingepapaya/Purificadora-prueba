@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Ventas</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        form {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gestión de Ventas</h1>
+
+    <!-- Clientes -->
+    <section>
+        <h2>Clientes</h2>
+        <button id="fetchClients">Obtener Clientes</button>
+        <ul id="clientList"></ul>
+        <form id="addClientForm">
+            <h3>Agregar Cliente</h3>
+            <input type="text" name="nombre" placeholder="Nombre" required />
+            <input type="text" name="direccion" placeholder="Dirección" required />
+            <input type="text" name="telefono" placeholder="Teléfono" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <button type="submit">Agregar</button>
+        </form>
+    </section>
+
+    <!-- Productos -->
+    <section>
+        <h2>Productos</h2>
+        <button id="fetchProducts">Obtener Productos</button>
+        <ul id="productList"></ul>
+        <form id="addProductForm">
+            <h3>Agregar Producto</h3>
+            <input type="number" name="id_proveedor" placeholder="ID Proveedor" required />
+            <input type="text" name="nombre_producto" placeholder="Nombre Producto" required />
+            <input type="text" name="descripcion" placeholder="Descripción" required />
+            <input type="number" name="precio_venta" placeholder="Precio" required />
+            <input type="number" name="stock" placeholder="Stock" required />
+            <button type="submit">Agregar</button>
+        </form>
+    </section>
+
+    <!-- Ventas -->
+    <section>
+        <h2>Ventas</h2>
+        <button id="fetchVentas">Obtener Ventas</button>
+        <ul id="ventasList"></ul>
+        <form id="addVentaDetalleForm">
+            <h3>Agregar Detalle de Venta</h3>
+            <input type="number" name="id_venta" placeholder="ID Venta" required />
+            <input type="number" name="id_producto" placeholder="ID Producto" required />
+            <input type="number" name="cantidad" placeholder="Cantidad" required />
+            <input type="number" name="subtotal" placeholder="Subtotal" required />
+            <button type="submit">Agregar</button>
+        </form>
+    </section>
+
+    <!-- Inventario -->
+    <section>
+        <h2>Inventario</h2>
+        <button id="fetchInventario">Obtener Inventario</button>
+        <ul id="inventarioList"></ul>
+        <form id="addInventarioForm">
+            <h3>Inicializar Inventario</h3>
+            <input type="number" name="id_producto" placeholder="ID Producto" required />
+            <input type="number" name="stock_inicial" placeholder="Stock Inicial" required />
+            <button type="submit">Agregar</button>
+        </form>
+    </section>
+
+    <!-- Empleados -->
+    <section>
+        <h2>Empleados</h2>
+        <button id="fetchEmpleados">Obtener Empleados</button>
+        <ul id="empleadosList"></ul>
+        <form id="addEmpleadoForm">
+            <h3>Agregar Empleado</h3>
+            <input type="text" name="nombre" placeholder="Nombre" required />
+            <input type="text" name="cargo" placeholder="Cargo" required />
+            <input type="text" name="telefono" placeholder="Teléfono" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="number" name="salario" placeholder="Salario" required />
+            <input type="date" name="fecha_contratacion" placeholder="Fecha de Contratación" required />
+            <button type="submit">Agregar</button>
+        </form>
+    </section>
+
+</body>
+</html>

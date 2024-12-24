@@ -1,0 +1,14 @@
+{
+  "name": "purificadora_prueba0",
+  "version": "0.0.0",
+  "description": "Purificadora_prueba0",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {
+  }
+}

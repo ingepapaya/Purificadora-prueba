@@ -1,0 +1,3 @@
+C:\Users\carlo\OneDrive\Escritorio\Purificadora prueba\Purificadora_prueba0\Purificadora_prueba0\obj\Debug\Purificadora_prueba0.njsproj.AssemblyReference.cache
+C:\Users\carlo\OneDrive\Escritorio\Purificadora prueba\Purificadora_prueba0\Purificadora_prueba0\obj\Debug\Purificadora_prueba0.njsproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Escritorio\Purificadora prueba\Purificadora_prueba0\Purificadora_prueba0\bin\Microsoft.NodejsTools.WebRole.dll
